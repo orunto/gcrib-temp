@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: url('Background.png');
+            background-size: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 0;
+            margin: 0;
+        }
+
+        #logo {
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            height: 30px;
+            width: auto;
+        }
+
+        #logo2 {
+            display: none;
+        }
+
+        #chef {
+            position: absolute;
+            top: calc(50vh - 300px);
+            left: calc(50vw - 150px);
+        }
+
+        #chef2 {
+            display: none;
+        }
+
+        h1 {
+            position: absolute;
+            top: 232px;
+            left: calc(50vw  - 441.5px);
+            font-size: 100px;
+            font-family: 'Rische';
+            font-weight: normal;
+            margin: 0;
+            color: #E28F1D;
+        }
+
+        p {
+            position: absolute;
+            top: 371px;
+            left: calc(50vw - 450px);
+            margin: 0;
+            width: 900px;
+            text-align: center;
+            font-family: 'Sora';
+            font-size: 30px;
+            font-weight: lighter;
+            color: #fff;
+        }
+
+        p a {
+            color: #28D146;
+            text-decoration: none;
+        }
+
+        #what {
+            position: absolute;
+            bottom: 50px;
+            left: calc(50vw - 131px);
+            font-size: 20px;
+            width: 262px;
+            font-family: 'Montserrat';
+            color: #28D146;
+            text-decoration: none;
+        }
+
+        #what img {
+            position: absolute;
+            right: 0;
+            bottom: 1px;
+        }
+
+        @media (max-width: 1200px) {
+            body{
+                background-size: 130%;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            body{
+                background-size: 155%;
+            }
+        }
+
+        @media (max-width: 500px) {
+            body {
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+                background: url('Background2.png');
+                background-size: 100%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 0;
+                margin: 0;
+            } 
+            
+            #logo {
+                display: none;
+                
+            }
+
+            #logo2 {
+                display: block;
+                position: absolute;
+                top: 25px;
+                left: 25px;
+                height: 20px;
+                width: auto;
+            }
+
+            #chef {
+                display: none;
+            }
+
+            #chef2 {
+                display: block;
+                position: absolute;
+                top: calc(50vh - 250px);
+                left: calc(50vw - 125px);
+            }
+
+            h1 {
+                position: absolute;
+                top: 250px;
+                left: 25px;
+                width: calc(100vw - 50px);
+                text-align: center;
+                font-size: 50px;
+                font-family: 'Rische';
+                font-weight: normal;
+                margin: 0;
+                color: #E28F1D;
+            }
+
+            p {
+                position: absolute;
+                top: 390px;
+                left: 25px;
+                margin: 0;
+                width: calc(100vw - 50px);
+                text-align: center;
+                font-family: 'Sora';
+                font-size: 25px;
+                font-weight: lighter;
+                color: #fff;
+            }
+
+            p a {
+                color: #28D146;
+                text-decoration: none;
+            }
+
+            #what {
+                position: absolute;
+                bottom: 50px;
+                left: calc(50vw - 131px);
+                font-size: 20px;
+                width: 262px;
+                font-family: 'Montserrat';
+                color: #28D146;
+                text-decoration: none;
+            }
+        }
+    </style>
+    <title>Gentlemen's Crib | In the Kitchen</title>
+</head>
+<body>
+    <img src="Logo.png" id="logo">
+    <img src="Icon.png" id="logo2">
+    <img src="chef.png" id="chef">
+    <img src="chef2.png" id="chef2">
+    <h1>Currently Cooking!</h1>
+    <p>We’re working on our site but you can reach us on <a href="https://wa.me/2348027132741">Whatsapp</a></p>
+    <a id="what" href="https://wa.me/2348027132741"><span>Reach us on Whatsapp</span><img src="whatsapp.svg"></a>
+</body>
+</html>
